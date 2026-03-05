@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Methodology & Data Sources — Construction Materials Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a1520;
+    --surface: #0f1e2e;
+    --border: #1a3a5c;
+    --text: #c8d8e8;
+    --text-dim: #7a9ab8;
+    --accent: #64ffb4;
+    --accent2: #00bfff;
+    --heading: #e8f4ff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    padding: 0 0 60px;
+  }
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 36px 48px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  header h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: var(--heading);
+    letter-spacing: -0.5px;
+  }
+  header .subtitle {
+    color: var(--text-dim);
+    margin-top: 6px;
+    font-size: 0.95rem;
+  }
+  header .back-link {
+    display: inline-block;
+    margin-top: 18px;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  header .back-link:hover { text-decoration: underline; }
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 48px;
+  }
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--heading);
+    margin: 40px 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--accent2);
+    margin: 24px 0 8px;
+  }
+  p { margin-bottom: 14px; }
+  ul, ol { padding-left: 22px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  code {
+    background: #162636;
+    color: var(--accent);
+    border-radius: 4px;
+    padding: 2px 7px;
+    font-size: 0.88em;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+  }
+  pre {
+    background: #162636;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px 22px;
+    overflow-x: auto;
+    margin: 14px 0 20px;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.85em;
+    color: var(--accent);
+    line-height: 1.6;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0 24px;
+    font-size: 0.9rem;
+  }
+  th {
+    background: #162636;
+    color: var(--heading);
+    font-weight: 600;
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 2px solid var(--border);
+  }
+  td {
+    padding: 9px 14px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    vertical-align: top;
+  }
+  tr:hover td { background: rgba(255,255,255,0.02); }
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.78em;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+  .tag-live { background: rgba(100,255,180,0.15); color: var(--accent); }
+  .tag-curated { background: rgba(0,191,255,0.15); color: var(--accent2); }
+  .callout {
+    background: rgba(100,255,180,0.06);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0;
+    padding: 14px 18px;
+    margin: 18px 0;
+    font-size: 0.93rem;
+  }
+  .callout-warn {
+    background: rgba(255,165,0,0.06);
+    border-left: 3px solid #ffa500;
+  }
+  .section-nav {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px 22px;
+    margin: 0 0 36px;
+  }
+  .section-nav h4 { color: var(--heading); margin-bottom: 10px; font-size: 0.9rem; }
+  .section-nav ol { margin: 0; padding-left: 18px; }
+  .section-nav li a { color: var(--accent2); text-decoration: none; font-size: 0.9rem; }
+  .section-nav li a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Methodology &amp; Data Sources</h1>
+  <div class="subtitle">US Construction Materials Intelligence Report — Build Reference</div>
+  <a class="back-link" href="index.html">← Back to Report</a>
+</header>
+
+<main>
+
+<div class="section-nav">
+  <h4>Contents</h4>
+  <ol>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#data-sources">Data Sources</a></li>
+    <li><a href="#pipeline">Build Pipeline</a></li>
+    <li><a href="#usgs-methodology">USGS Data Methodology</a></li>
+    <li><a href="#facility-data">Facility &amp; Location Data</a></li>
+    <li><a href="#commodities">Commodity Coverage</a></li>
+    <li><a href="#limitations">Limitations &amp; Caveats</a></li>
+    <li><a href="#setup">Setup &amp; Reproduction</a></li>
+    <li><a href="#glossary">Glossary</a></li>
+  </ol>
+</div>
+
+<!-- OVERVIEW -->
+<h2 id="overview">1. Overview</h2>
+
+<p>The <strong>US Construction Materials Intelligence Report</strong> is a programmatically generated HTML dashboard covering the supply chain for cement and supplementary cementitious materials (SCMs) in the United States. It is designed to update automatically when underlying data is refreshed — every chart, statistic, and map marker is generated at build time from structured data sources rather than being manually maintained.</p>
+
+<p>The report covers five material categories:</p>
+<ul>
+  <li><strong>Portland cement</strong> — the dominant binding agent in US concrete</li>
+  <li><strong>Ground granulated blast furnace slag (GGBFS)</strong> — a co-product of iron making that substitutes 30–70% of cement</li>
+  <li><strong>Fly ash</strong> — a coal combustion by-product used as a pozzolanic cement replacement</li>
+  <li><strong>Natural pozzolans</strong> — volcanic materials (pumice, perlite, diatomite, calcined clays) used as SCMs</li>
+  <li><strong>Silica fume</strong> — an ultra-fine by-product of silicon/ferrosilicon production</li>
+</ul>
+
+<p>The supply chain for these materials intersects iron &amp; steel production (slag), electricity generation (fly ash), mining (natural pozzolans), and maritime/rail logistics (imports). This report captures all five layers in a single deliverable.</p>
+
+<!-- DATA SOURCES -->
+<h2 id="data-sources">2. Data Sources</h2>
+
+<table>
+  <thead>
+    <tr><th>Data Layer</th><th>Source</th><th>Type</th><th>Coverage</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cement production, imports, price</td>
+      <td>USGS Mineral Commodity Summaries (MCS)</td>
+      <td><span class="tag tag-live">Live DB</span></td>
+      <td>2004–2024, annual</td>
+    </tr>
+    <tr>
+      <td>Iron &amp; steel slag consumption, imports</td>
+      <td>USGS MCS — Iron &amp; Steel Slag chapter</td>
+      <td><span class="tag tag-live">Live DB</span></td>
+      <td>2010–2024, annual</td>
+    </tr>
+    <tr>
+      <td>Pumice &amp; pumicite mine production</td>
+      <td>USGS MCS — Pumice chapter</td>
+      <td><span class="tag tag-live">Live DB</span></td>
+      <td>2015–2024, annual</td>
+    </tr>
+    <tr>
+      <td>Blast furnace / integrated steel mills</td>
+      <td>AIST Steel Mill Directory (2021 edition)</td>
+      <td><span class="tag tag-live">Live GeoJSON</span></td>
+      <td>68 US/Canada facilities</td>
+    </tr>
+    <tr>
+      <td>Cement plant locations &amp; capacity</td>
+      <td>PCA (Portland Cement Association) / industry</td>
+      <td><span class="tag tag-curated">Curated</span></td>
+      <td>50 US plants</td>
+    </tr>
+    <tr>
+      <td>Cement import ports</td>
+      <td>USACE navigation data / port directories</td>
+      <td><span class="tag tag-curated">Curated</span></td>
+      <td>24 US ports</td>
+    </tr>
+    <tr>
+      <td>Natural pozzolan deposits</td>
+      <td>USGS MRDS, USGS Professional Papers</td>
+      <td><span class="tag tag-curated">Curated</span></td>
+      <td>8 major deposits</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="callout">
+  <strong>Data tag convention:</strong> Sections of the report that use live database queries are marked <span class="tag tag-live">● USGS MCS Live</span> or <span class="tag tag-live">● AIST Directory Live</span>. Sections using curated static data are marked <span class="tag tag-curated">● PCA Curated</span> or similar.
+</div>
+
+<h3>2.1 USGS Mineral Commodity Summaries (MCS)</h3>
+<p>The USGS publishes the <em>Mineral Commodity Summaries</em> annually, covering ~90 mineral commodities. Each commodity chapter reports: US mine production, imports for consumption, exports, apparent consumption (production + imports − exports), and average price. The MCS is the authoritative US government source for non-fuel mineral statistics.</p>
+
+<ul>
+  <li><strong>URL:</strong> <code>https://pubs.usgs.gov/periodicals/mcs2024/</code> (replace year)</li>
+  <li><strong>Format:</strong> PDF (annual), one PDF per commodity chapter</li>
+  <li><strong>Cadence:</strong> Published each January for the prior calendar year (with preliminary estimates)</li>
+  <li><strong>Access:</strong> Free, public domain (US government work)</li>
+</ul>
+
+<h3>2.2 AIST Steel Mill Directory</h3>
+<p>The Association for Iron &amp; Steel Technology (AIST) publishes a directory of steel production facilities in North America. It includes plant type (blast furnace, EAF minimill, rolling, finishing), annual capacity, and geographic coordinates. The blast furnace facilities in this directory are the primary source of granulated slag — a co-product of iron reduction that, when quenched and ground, becomes GGBFS.</p>
+
+<ul>
+  <li><strong>Format:</strong> GeoJSON (converted from AIST directory, 68 facilities, 56 KB)</li>
+  <li><strong>Included file:</strong> <code>data/facilities_steel_mill.geojson</code></li>
+  <li><strong>Filter applied:</strong> Only facilities with <code>"blast_furnace"</code> in the <code>facility_types</code> property are shown on the map — these are the 8 integrated BF-BOF mills that produce pig iron and, as a by-product, slag</li>
+</ul>
+
+<!-- PIPELINE -->
+<h2 id="pipeline">3. Build Pipeline</h2>
+
+<p>The report is built by a single Python script: <code>build_report.py</code>. The build takes under 2 seconds and produces a fully self-contained HTML file.</p>
+
+<pre>
+[1/3] Load USGS data
+      → Open DuckDB connection to data/usgs_minerals.duckdb (read-only)
+      → Query mcs_salient_stats for each commodity/metric/year range
+      → Aggregate to single median value per year (see §4)
+
+[2/3] Load AIST mill locations
+      → Parse data/facilities_steel_mill.geojson
+      → Filter: country = "US", facility_types contains "blast_furnace"
+      → Build JavaScript-embedded GeoJSON for Leaflet map
+
+[3/3] Build HTML
+      → Render all data into Chart.js dataset arrays (inline JavaScript)
+      → Render facility coordinates into Leaflet marker code
+      → Write single standalone .html file to output/
+</pre>
+
+<p>The generated HTML has no runtime data dependencies — all data is embedded as JavaScript literals. Only the map background tiles (CartoDB DarkMatter via CDN) and Chart.js / Leaflet / Google Fonts require an internet connection.</p>
+
+<!-- USGS METHODOLOGY -->
+<h2 id="usgs-methodology">4. USGS Data Methodology</h2>
+
+<h3>4.1 Database Construction</h3>
+<p>The <code>usgs_minerals.duckdb</code> database was built by a scraper-parser pipeline that:</p>
+<ol>
+  <li>Downloaded all available MCS PDF files from USGS servers (37 commodities, 4,238 files, ~1.86 GB of PDFs)</li>
+  <li>Parsed each PDF using text-block extraction to locate salient statistics tables</li>
+  <li>Extracted year, metric name, value, and unit for each row</li>
+  <li>Loaded results into the <code>mcs_salient_stats</code> table (32,344 records)</li>
+</ol>
+
+<h3>4.2 Multi-Record Deduplication</h3>
+<p>A key challenge: the USGS publishes multiple PDF editions covering overlapping years (preliminary estimates get revised in subsequent publications). This means any given commodity-year combination may appear 3–15 times in the database with slightly different values.</p>
+
+<div class="callout">
+  <strong>Resolution:</strong> For each commodity/metric/year, the build script filters to a plausible physical value range (e.g. cement production must be between 75,000–100,000 thousand metric tons), then takes the <strong>statistical median</strong> of all qualifying values. This produces a stable, revision-resistant estimate.
+</div>
+
+<p>Example query for cement production:</p>
+<pre>
+SELECT year, value
+FROM mcs_salient_stats
+WHERE commodity = 'cement'
+  AND metric = 'production_us'
+  AND year BETWEEN 2020 AND 2024
+  AND value BETWEEN 75000 AND 100000   -- plausibility filter (thousands MT)
+ORDER BY year
+
+→ Multiple values per year, e.g. 2022: [92000, 91500, 92300]
+→ Median → 92000 → 92.0 MMT displayed in chart
+</pre>
+
+<h3>4.3 Unit Normalization</h3>
+<p>USGS MCS values are typically reported in one of three scales:</p>
+<ul>
+  <li><strong>Thousand metric tons</strong> — most production figures (cement, slag, pumice)</li>
+  <li><strong>Metric tons</strong> — some price and smaller commodity figures</li>
+  <li><strong>Dollars per metric ton</strong> — price series</li>
+</ul>
+<p>The build script applies commodity-specific divisors to convert all production values to million metric tons (MMT) for display consistency. Prices are displayed in USD/MT.</p>
+
+<h3>4.4 Cement-Specific Notes</h3>
+<ul>
+  <li>USGS reports <em>Portland and masonry cement combined</em> — the dominant form (~95%) is Portland cement</li>
+  <li>US apparent consumption is typically 15–22% higher than domestic production due to imports</li>
+  <li>Price data reflects the average value at the plant gate (not delivered price)</li>
+</ul>
+
+<!-- FACILITY DATA -->
+<h2 id="facility-data">5. Facility &amp; Location Data</h2>
+
+<h3>5.1 Cement Plants (50 facilities — curated)</h3>
+<p>US cement plant locations and clinker capacities are sourced from PCA member data, USGS Cement commodity reports (which list major producers by state), and cross-referenced against public SEC filings from the major producers (Lehigh/Heidelberg, CEMEX, Martin Marietta, Summit Materials, Ash Grove/CRH). Coordinates are centroid estimates for the plant county.</p>
+
+<div class="callout callout-warn">
+  <strong>Note:</strong> Cement plant data does not update automatically. The PCA does not publish a free machine-readable facility database. Capacities shown reflect industry conditions circa 2023–2024 and should be verified against the PCA Market Intelligence Report for precision work.
+</div>
+
+<h3>5.2 Import Ports (24 facilities — curated)</h3>
+<p>US cement-capable import terminals are identified from:</p>
+<ul>
+  <li>USGS annual cement commodity reports (list importing states/ports)</li>
+  <li>USACE waterborne commerce statistics (cement/clinker tonnage by port)</li>
+  <li>Panjiva/S&P Global trade data (vessel-level clinker import records)</li>
+</ul>
+<p>Port volumes shown are indicative of relative import activity — not exact tonnage — as publicly available port-level cement tonnage is not systematically reported.</p>
+
+<h3>5.3 Blast Furnace Mills (live from AIST GeoJSON)</h3>
+<p>The 8 integrated blast furnace mills shown on the map are queried live from <code>data/facilities_steel_mill.geojson</code>. These are the only US facilities currently producing molten slag (a by-product of reducing iron ore to pig iron in a blast furnace). When quenched with water, this slag granulates and can be ground to GGBFS.</p>
+
+<p>Active US BF-BOF integrated mills as of 2024:</p>
+<ul>
+  <li>US Steel — Gary Works (IN), Mon Valley Works (PA), Great Lakes Works (MI)</li>
+  <li>Cleveland-Cliffs — Burns Harbor (IN), Cleveland (OH), Middletown (OH), Dearborn (MI)</li>
+  <li>NLMK USA — Portage (IN)</li>
+</ul>
+
+<h3>5.4 Natural Pozzolan Deposits (8 deposits — curated)</h3>
+<p>Deposit locations are derived from USGS Mineral Resources Data System (MRDS) and USGS Professional Paper 1679 (<em>Natural Pozzolans in the Western United States</em>). All significant commercial-grade natural pozzolan deposits in the US are located in the western states (Oregon, Idaho, Nevada, California, Arizona, New Mexico) due to the concentration of Quaternary volcanic activity.</p>
+
+<!-- COMMODITIES -->
+<h2 id="commodities">6. Commodity Coverage Detail</h2>
+
+<h3>6.1 Portland Cement</h3>
+<p>Cement is manufactured by heating limestone (CaCO₃) and clay minerals to ~1450°C in a rotary kiln, producing clinker. Clinker is then ground with ~5% gypsum to produce Portland cement. The US has ~96 plants producing ~88–93 MMT/year, meeting ~80% of domestic demand; the remainder is imported primarily from Canada, Turkey, Vietnam, China, and South Korea.</p>
+
+<h3>6.2 Iron &amp; Steel Slag / GGBFS</h3>
+<p>Blast furnace slag is produced at approximately 250–350 kg per tonne of pig iron. With ~25 Mt of pig iron produced annually at US integrated mills, approximately 6–9 Mt of slag is generated. Around 70% of this is granulated (water-quenched → GGBFS feedstock); the remainder is air-cooled and sold as aggregate or road base. GGBFS reduces cement content by 30–70% in concrete mixes, lowering embodied carbon by a similar proportion.</p>
+
+<h3>6.3 Fly Ash</h3>
+<p>Fly ash is captured from the flue gas of coal-fired power plants. US fly ash supply has declined ~40% since 2010 as coal plant retirements accelerate — from ~70 Mt available annually to ~45 Mt. Not all captured fly ash meets ASTM C618 specifications; usable supply is approximately 30–35 Mt/year, of which ~18–20 Mt is consumed as a cement replacement. Supply constraints are the primary growth challenge for fly ash-based SCMs.</p>
+
+<h3>6.4 Natural Pozzolans</h3>
+<p>Natural pozzolans include pumice, volcanic ash, calcined clay (metakaolin), calcined shale, diatomite, and perlite. US production is modest (~0.5–1.0 Mt/year total for SCM applications) but growing as fly ash supply tightens. Key producers: US Pumice (Pumice Products Company), Hess Pumice (ID), Dicalite Management Group (diatomite).</p>
+
+<!-- LIMITATIONS -->
+<h2 id="limitations">7. Limitations &amp; Caveats</h2>
+
+<ul>
+  <li><strong>USGS MCS preliminary data:</strong> The most recent year in MCS (e.g., 2024) reflects preliminary estimates that will be revised in subsequent publications. Figures for the current year should be treated as ±5% estimates.</li>
+  <li><strong>Fly ash — no live data:</strong> The USGS does not publish a dedicated fly ash MCS chapter. Fly ash statistics shown are based on ACAA (American Coal Ash Association) survey data and EPA RCRA reporting, cross-referenced against academic literature. These are curated estimates, not live database queries.</li>
+  <li><strong>Cement plant capacities:</strong> Clinker capacities reflect publicly reported figures, not PCA survey data (which is proprietary). Actual utilization rates vary significantly by plant and year.</li>
+  <li><strong>GGBFS market share:</strong> GGBFS market size (consumption as cement replacement) is modeled from slag production (USGS) minus air-cooled uses (road base, aggregate), with a slag-to-GGBFS yield factor of ~0.95. This is an estimate — no government agency tracks GGBFS consumption directly.</li>
+  <li><strong>Map coordinates:</strong> Cement plant coordinates are county-centroid approximations in some cases; they should not be used for precise logistics routing without verification.</li>
+</ul>
+
+<!-- SETUP -->
+<h2 id="setup">8. Setup &amp; Reproduction</h2>
+
+<h3>8.1 Requirements</h3>
+<ul>
+  <li>Python 3.11 or higher</li>
+  <li><code>duckdb</code> Python package (≥ 0.9.0)</li>
+  <li>Internet connection for map tiles and CDN assets when viewing the report</li>
+</ul>
+
+<h3>8.2 Installation</h3>
+<pre>
+git clone https://github.com/theshipsagent/construction-materials-intel
+cd construction-materials-intel
+pip install -r requirements.txt
+</pre>
+
+<h3>8.3 Building the Report</h3>
+<pre>
+python3 build_report.py
+# Output: output/construction_materials_intelligence_report.html
+</pre>
+<p>Open the output file in any modern browser (Chrome, Firefox, Safari, Edge).</p>
+
+<h3>8.4 Refreshing USGS Data</h3>
+<p>The <code>data/usgs_minerals.duckdb</code> database is a snapshot. To refresh it with the latest USGS publications, the full USGS Intelligence pipeline (not included in this repo) must be re-run. Contact the repository maintainer for refresh procedures or to request an updated database snapshot.</p>
+
+<!-- GLOSSARY -->
+<h2 id="glossary">9. Glossary</h2>
+
+<table>
+  <thead><tr><th>Term</th><th>Definition</th></tr></thead>
+  <tbody>
+    <tr><td>SCM</td><td>Supplementary Cementitious Material — any material that partially replaces Portland cement in concrete</td></tr>
+    <tr><td>GGBFS</td><td>Ground Granulated Blast Furnace Slag — slag processed to cement-replacement quality (ASTM C989)</td></tr>
+    <tr><td>MCS</td><td>Mineral Commodity Summaries — USGS annual publication covering ~90 non-fuel minerals</td></tr>
+    <tr><td>MRDS</td><td>Mineral Resources Data System — USGS database of ~300,000 worldwide mine/deposit records</td></tr>
+    <tr><td>BF-BOF</td><td>Blast Furnace – Basic Oxygen Furnace: integrated steelmaking route using iron ore</td></tr>
+    <tr><td>EAF</td><td>Electric Arc Furnace: minimill steelmaking route using scrap steel (does not produce slag usable as GGBFS)</td></tr>
+    <tr><td>MMT</td><td>Million Metric Tons</td></tr>
+    <tr><td>Pozzolan</td><td>A material that, in the presence of water and calcium hydroxide, reacts to form cementitious compounds (ASTM C618)</td></tr>
+    <tr><td>Clinker</td><td>The intermediate product of cement manufacturing — nodules of calcium silicates produced in the kiln, ground to make cement</td></tr>
+    <tr><td>w/cm ratio</td><td>Water-to-cementitious materials ratio — the primary determinant of concrete strength and durability</td></tr>
+    <tr><td>AIST</td><td>Association for Iron &amp; Steel Technology — North American steel industry trade association</td></tr>
+    <tr><td>PCA</td><td>Portland Cement Association — US cement industry trade association, primary source of domestic cement statistics</td></tr>
+    <tr><td>ACAA</td><td>American Coal Ash Association — tracks fly ash generation and beneficial use statistics</td></tr>
+    <tr><td>Net import reliance</td><td>USGS metric: (imports − exports) / apparent consumption × 100%. Positive = net importer</td></tr>
+  </tbody>
+</table>
+
+<p style="margin-top:40px; color: var(--text-dim); font-size: 0.85rem;">
+  Data compiled and pipeline built by William S. Davis III. USGS data is public domain (US government work).
+  AIST directory reproduced under fair use for research purposes.
+  All other curated data sourced from public industry publications as cited.
+</p>
+
+</main>
+</body>
+</html>
