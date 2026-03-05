@@ -274,20 +274,20 @@
 <p>The report is built by a single Python script: <code>build_report.py</code>. The build takes under 2 seconds and produces a fully self-contained HTML file.</p>
 
 <pre>
-[1/3] Load USGS data
-      → Open DuckDB connection to data/usgs_minerals.duckdb (read-only)
-      → Query mcs_salient_stats for each commodity/metric/year range
-      → Aggregate to single median value per year (see §4)
+Step 1 — Load USGS data
+      Open DuckDB connection to data/usgs_minerals.duckdb (read-only)
+      Query mcs_salient_stats for each commodity/metric/year range
+      Aggregate to single median value per year (see §4)
 
-[2/3] Load AIST mill locations
-      → Parse data/facilities_steel_mill.geojson
-      → Filter: country = "US", facility_types contains "blast_furnace"
-      → Build JavaScript-embedded GeoJSON for Leaflet map
+Step 2 — Load AIST mill locations
+      Parse data/facilities_steel_mill.geojson
+      Filter: country = "US", facility_types contains "blast_furnace"
+      Build JavaScript-embedded GeoJSON for Leaflet map
 
-[3/3] Build HTML
-      → Render all data into Chart.js dataset arrays (inline JavaScript)
-      → Render facility coordinates into Leaflet marker code
-      → Write single standalone .html file to output/
+Step 3 — Build HTML
+      Render all data into Chart.js dataset arrays (inline JavaScript)
+      Render facility coordinates into Leaflet marker code
+      Write single standalone .html file to output/
 </pre>
 
 <p>The generated HTML has no runtime data dependencies — all data is embedded as JavaScript literals. Only the map background tiles (CartoDB DarkMatter via CDN) and Chart.js / Leaflet / Google Fonts require an internet connection.</p>
