@@ -1,0 +1,1850 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0137,
+          31.0035
+        ]
+      },
+      "properties": {
+        "name": "AM/NS Calvert",
+        "company": "ArcelorMittal/Nippon Steel (now Nippon Steel)",
+        "city": "Calvert",
+        "state": "AL",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, cold_reduction_mill",
+        "capacity_kt_year": 5400,
+        "hsm_finishing_stands": 7,
+        "hsm_max_width_mm": 1860,
+        "hsm_startup_year": 2010,
+        "galv_num_lines": 3,
+        "galv_coating_types": "GI,GA,AL",
+        "galv_total_capacity_kt": 1520,
+        "notes": "HSM cap 5,400kt. 3 HDGL lines (500+500+520kt). Former ThyssenKrupp plant.",
+        "ownership_updated": "Nippon Steel acquired AM share 2023. Now Nippon Steel / AM JV.",
+        "port_adjacent": true,
+        "barge_access": true,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.1253,
+          41.6256
+        ]
+      },
+      "properties": {
+        "name": "Burns Harbor",
+        "company": "Cleveland-Cliffs (fmr ArcelorMittal USA)",
+        "city": "Burns Harbor",
+        "state": "IN",
+        "country": "US",
+        "facility_types": "hot_strip_mill, plate_mill, galvanizing_line, blast_furnace, basic_oxygen_furnace",
+        "capacity_kt_year": 4100,
+        "hsm_finishing_stands": 7,
+        "hsm_max_width_mm": 1930,
+        "hsm_startup_year": 1966,
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 550,
+        "plate_max_width_mm": 3861,
+        "notes": "Integrated BF/BOF. HSM 4,100kt. 110-in plate 330kt + 160-in plate 710kt. HDGL 550kt.",
+        "ownership_updated": "Cleveland-Cliffs acquired from ArcelorMittal Dec 2020",
+        "port_adjacent": true,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6386,
+          41.4575
+        ]
+      },
+      "properties": {
+        "name": "Cleveland Works",
+        "company": "Cleveland-Cliffs (fmr ArcelorMittal USA)",
+        "city": "Cleveland",
+        "state": "OH",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, blast_furnace, basic_oxygen_furnace",
+        "capacity_kt_year": 3000,
+        "hsm_finishing_stands": 7,
+        "hsm_max_width_mm": 1905,
+        "hsm_startup_year": 1971,
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 650,
+        "notes": "Integrated. HSM 3,000kt. HDGL 650kt.",
+        "ownership_updated": "Cleveland-Cliffs acquired from ArcelorMittal Dec 2020",
+        "port_adjacent": true,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.4406,
+          41.6467
+        ]
+      },
+      "properties": {
+        "name": "Indiana Harbor East",
+        "company": "Cleveland-Cliffs (fmr ArcelorMittal USA)",
+        "city": "East Chicago",
+        "state": "IN",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, electric_arc_furnace, blast_furnace, basic_oxygen_furnace",
+        "capacity_kt_year": 4900,
+        "hsm_finishing_stands": 6,
+        "hsm_max_width_mm": 1859,
+        "hsm_startup_year": 1965,
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 454,
+        "notes": "Integrated BF/BOF + EAF (idle). HSM 4,900kt. Also IH West galv line (577kt GI/GA).",
+        "ownership_updated": "Cleveland-Cliffs acquired from ArcelorMittal Dec 2020",
+        "port_adjacent": true,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.45,
+          41.65
+        ]
+      },
+      "properties": {
+        "name": "Indiana Harbor West",
+        "company": "Cleveland-Cliffs (fmr ArcelorMittal USA)",
+        "city": "East Chicago",
+        "state": "IN",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 577,
+        "notes": "Galv line at IH West complex. 577kt GI/GA.",
+        "ownership_updated": "Cleveland-Cliffs acquired from ArcelorMittal Dec 2020",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6353,
+          41.6328
+        ]
+      },
+      "properties": {
+        "name": "Riverdale (CSP)",
+        "company": "Cleveland-Cliffs (fmr ArcelorMittal USA)",
+        "city": "Riverdale",
+        "state": "IL",
+        "country": "US",
+        "facility_types": "hot_strip_mill",
+        "capacity_kt_year": 900,
+        "hsm_finishing_stands": 7,
+        "hsm_max_width_mm": 1585,
+        "hsm_startup_year": 1996,
+        "notes": "Compact strip production (CSP) thin slab caster. 900kt.",
+        "ownership_updated": "Cleveland-Cliffs acquired from ArcelorMittal Dec 2020",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.8241,
+          39.9832
+        ]
+      },
+      "properties": {
+        "name": "Columbus (Coatesville)",
+        "company": "Cleveland-Cliffs (fmr ArcelorMittal USA)",
+        "city": "Coatesville",
+        "state": "PA",
+        "country": "US",
+        "facility_types": "plate_mill, electric_arc_furnace",
+        "capacity_kt_year": 550,
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 798,
+        "plate_max_width_mm": 4953,
+        "notes": "140-in plate (500kt) + 206-in plate (50kt). EAF 798kt. Heavy/wide plate specialist.",
+        "ownership_updated": "Cleveland-Cliffs acquired from ArcelorMittal Dec 2020",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3041,
+          40.0804
+        ]
+      },
+      "properties": {
+        "name": "Conshohocken Plate",
+        "company": "Cleveland-Cliffs (fmr ArcelorMittal USA)",
+        "city": "Conshohocken",
+        "state": "PA",
+        "country": "US",
+        "facility_types": "plate_mill",
+        "capacity_kt_year": 410,
+        "plate_max_width_mm": 2642,
+        "notes": "Steckel plate mill, 410kt. Discrete + coil plate.",
+        "ownership_updated": "Cleveland-Cliffs acquired from ArcelorMittal Dec 2020",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.3356,
+          41.6064
+        ]
+      },
+      "properties": {
+        "name": "Gary Works",
+        "company": "United States Steel Corporation",
+        "city": "Gary",
+        "state": "IN",
+        "country": "US",
+        "facility_types": "hot_strip_mill, plate_mill, blast_furnace, basic_oxygen_furnace",
+        "capacity_kt_year": 5700,
+        "hsm_finishing_stands": 7,
+        "hsm_max_width_mm": 1981,
+        "hsm_startup_year": 1967,
+        "plate_max_width_mm": 3861,
+        "notes": "Largest US Steel plant. HSM 5,700kt. Gary Plate 580kt. Integrated BF/BOF.",
+        "port_adjacent": true,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1487,
+          38.7014
+        ]
+      },
+      "properties": {
+        "name": "Granite City Works",
+        "company": "United States Steel Corporation",
+        "city": "Granite City",
+        "state": "IL",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, blast_furnace, basic_oxygen_furnace",
+        "capacity_kt_year": 3300,
+        "hsm_finishing_stands": 7,
+        "hsm_max_width_mm": 1991,
+        "hsm_startup_year": 1966,
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,AZ",
+        "galv_total_capacity_kt": 254,
+        "notes": "Integrated. HSM 3,300kt. GGG galv 254kt. Near St. Louis on Mississippi.",
+        "port_adjacent": false,
+        "barge_access": true,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1501,
+          42.2381
+        ]
+      },
+      "properties": {
+        "name": "Great Lakes Works",
+        "company": "United States Steel Corporation",
+        "city": "Ecorse",
+        "state": "MI",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, blast_furnace",
+        "capacity_kt_year": 3800,
+        "hsm_finishing_stands": 7,
+        "hsm_max_width_mm": 1861,
+        "hsm_startup_year": 1961,
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 472,
+        "notes": "HSM 3,800kt. CGL 472kt + EGL. BF idled 2020; hot strip idled. Some finishing active.",
+        "ownership_updated": "Hot strip/BF permanently idled 2020. Some finishing ops continue.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9067,
+          40.3614
+        ]
+      },
+      "properties": {
+        "name": "Mon Valley Works \u2014 Irvin Plant",
+        "company": "United States Steel Corporation",
+        "city": "West Mifflin",
+        "state": "PA",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line",
+        "capacity_kt_year": 2500,
+        "hsm_finishing_stands": 6,
+        "hsm_max_width_mm": 1676,
+        "hsm_startup_year": 1938,
+        "galv_num_lines": 2,
+        "galv_coating_types": "GI",
+        "galv_total_capacity_kt": 360,
+        "notes": "HSM 2,500kt (oldest continuous HSM in US, 1938). GAL1 200kt + GAL2 160kt.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.8585,
+          40.1751
+        ]
+      },
+      "properties": {
+        "name": "Mon Valley Works \u2014 Fairless Plant",
+        "company": "United States Steel Corporation",
+        "city": "Fairless Hills",
+        "state": "PA",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 299,
+        "notes": "GAL3 galvanizing 299kt. Finishing only (no steelmaking).",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.1761,
+          41.5889
+        ]
+      },
+      "properties": {
+        "name": "Midwest Plant (Portage)",
+        "company": "United States Steel Corporation",
+        "city": "Portage",
+        "state": "IN",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 2,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 699,
+        "notes": "72-in GACT 454kt + No.3 CL 245kt. Major galv hub near Burns Harbor.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.9122,
+          33.489
+        ]
+      },
+      "properties": {
+        "name": "Fairfield Works",
+        "company": "United States Steel Corporation",
+        "city": "Fairfield",
+        "state": "AL",
+        "country": "US",
+        "facility_types": "galvanizing_line, electric_arc_furnace",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,AZ",
+        "galv_total_capacity_kt": 272,
+        "notes": "No.5 DualLine galv 272kt. EAF steelmaking resumed 2023-24.",
+        "ownership_updated": "EAF restart 2024 for tubular products.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.9626,
+          35.687
+        ]
+      },
+      "properties": {
+        "name": "Big River Steel",
+        "company": "United States Steel Corporation",
+        "city": "Osceola",
+        "state": "AR",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, electric_arc_furnace",
+        "capacity_kt_year": 3300,
+        "hsm_finishing_stands": 6,
+        "hsm_max_width_mm": 1980,
+        "hsm_startup_year": 2016,
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI",
+        "galv_total_capacity_kt": 475,
+        "eaf_num_furnaces": 2,
+        "eaf_capacity_kt": 2900,
+        "notes": "BRS Phase 1: HSM ~1,500kt (AIST 2021), 2 EAF 2,900kt, HDGL 475kt. Flex mill.",
+        "ownership_updated": "U.S. Steel completed acquisition Q1 2021.",
+        "port_adjacent": false,
+        "barge_access": true,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.96,
+          35.689
+        ]
+      },
+      "properties": {
+        "name": "Big River Steel 2 (BR2)",
+        "company": "United States Steel Corporation",
+        "city": "Osceola",
+        "state": "AR",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, electric_arc_furnace, cold_reduction_mill",
+        "capacity_kt_year": 3000,
+        "hsm_max_width_mm": 1980,
+        "hsm_startup_year": 2024,
+        "notes": "BR2: $3.2B. Endless casting+rolling, 2 EAF, 2 coating lines (1 AHSS, 1 heavy gauge). Started 2024. Doubles USS EAF flat-rolled to 6M+ TPY.",
+        "ownership_updated": "Commissioned Oct 2024. Pickling line + TCM Nov 2024. CGL Jan 2025.",
+        "port_adjacent": false,
+        "barge_access": true,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9814,
+          41.1
+        ]
+      },
+      "properties": {
+        "name": "PRO-TEC Coating",
+        "company": "U.S. Steel / Kobe Steel JV",
+        "city": "Leipsic",
+        "state": "OH",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 3,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 1588,
+        "notes": "CGL1 635kt + CGL2 499kt + CGL3 454kt = 1,588kt total. Major auto-grade galvanizer.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8842,
+          38.0047
+        ]
+      },
+      "properties": {
+        "name": "UPI (Pittsburg CA)",
+        "company": "United States Steel Corporation",
+        "city": "Pittsburg",
+        "state": "CA",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 363,
+        "notes": "West Coast galvanizing. CGL 363kt.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8953,
+          40.8612
+        ]
+      },
+      "properties": {
+        "name": "AK Steel \u2014 Butler Works",
+        "company": "Cleveland-Cliffs",
+        "city": "Butler",
+        "state": "PA",
+        "country": "US",
+        "facility_types": "hot_strip_mill, electric_arc_furnace",
+        "capacity_kt_year": 600,
+        "hsm_finishing_stands": 5,
+        "hsm_max_width_mm": 1270,
+        "hsm_startup_year": 1957,
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 908,
+        "notes": "EAF 908kt, HSM 600kt. Specialty/electrical steel. Narrow strip.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5154,
+          40.7834
+        ]
+      },
+      "properties": {
+        "name": "AK Steel \u2014 Mansfield Works",
+        "company": "Cleveland-Cliffs",
+        "city": "Mansfield",
+        "state": "OH",
+        "country": "US",
+        "facility_types": "hot_strip_mill, electric_arc_furnace",
+        "capacity_kt_year": 500,
+        "hsm_finishing_stands": 6,
+        "hsm_max_width_mm": 1270,
+        "hsm_startup_year": 1952,
+        "eaf_num_furnaces": 2,
+        "eaf_capacity_kt": 545,
+        "notes": "EAF melt shop + HSM 500kt. Narrow strip specialty.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3983,
+          39.515
+        ]
+      },
+      "properties": {
+        "name": "AK Steel \u2014 Middletown Works",
+        "company": "Cleveland-Cliffs",
+        "city": "Middletown",
+        "state": "OH",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, blast_furnace, basic_oxygen_furnace",
+        "capacity_kt_year": 5400,
+        "hsm_finishing_stands": 7,
+        "hsm_max_width_mm": 2032,
+        "hsm_startup_year": 1966,
+        "galv_num_lines": 3,
+        "galv_coating_types": "GI,EG,AL",
+        "galv_total_capacity_kt": 1388,
+        "notes": "Integrated BF/BOF. HSM 5,400kt (widest AK mill). EG 454kt + GI 508kt + AL 426kt.",
+        "ownership_updated": "Cliffs hydrogen injection trials on BF. Major decarbonization investment.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1534,
+          42.307
+        ]
+      },
+      "properties": {
+        "name": "AK Steel \u2014 Dearborn Works",
+        "company": "Cleveland-Cliffs",
+        "city": "Dearborn",
+        "state": "MI",
+        "country": "US",
+        "facility_types": "galvanizing_line, blast_furnace, basic_oxygen_furnace",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 454,
+        "notes": "Integrated BF/BOF + HDGL 454kt. Automotive-grade supplier to Detroit OEMs.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.0494,
+          37.8831
+        ]
+      },
+      "properties": {
+        "name": "AK Steel \u2014 Rockport Works",
+        "company": "Cleveland-Cliffs",
+        "city": "Rockport",
+        "state": "IN",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 907,
+        "notes": "CGL 907kt \u2014 largest single galv line in Cliffs system. Wide strip (80-in).",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5097,
+          41.7036
+        ]
+      },
+      "properties": {
+        "name": "I/N Tek and I/N Kote",
+        "company": "Cleveland-Cliffs (fmr ArcelorMittal/Nippon JV)",
+        "city": "New Carlisle",
+        "state": "IN",
+        "country": "US",
+        "facility_types": "cold_reduction_mill, galvanizing_line",
+        "galv_num_lines": 2,
+        "galv_coating_types": "GI,EG",
+        "galv_total_capacity_kt": 817,
+        "notes": "Cold rolling (I/N Tek) + galvanizing (I/N Kote). KCGL 454kt + EG 363kt. Auto-grade.",
+        "ownership_updated": "Cleveland-Cliffs acquired from ArcelorMittal Dec 2020",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5895,
+          40.4189
+        ]
+      },
+      "properties": {
+        "name": "Weirton",
+        "company": "Cleveland-Cliffs (fmr Weirton Steel)",
+        "city": "Weirton",
+        "state": "WV",
+        "country": "US",
+        "facility_types": "galvanizing_line, coating_line",
+        "galv_num_lines": 2,
+        "galv_coating_types": "GI,GA,GF,AL,AZ",
+        "galv_total_capacity_kt": 674,
+        "notes": "Wheeling-Nippon: AGL 375kt (GI/GA/GF/AL) + CGL 299kt (GI/AZ). Tin mill closed.",
+        "ownership_updated": "Cliffs announced transformer manufacturing conversion 2024.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9988,
+          39.9612
+        ]
+      },
+      "properties": {
+        "name": "Columbus (ArcelorMittal legacy)",
+        "company": "Cleveland-Cliffs (fmr ArcelorMittal USA)",
+        "city": "Columbus",
+        "state": "OH",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 400,
+        "notes": "HDGL 400kt. Finishing facility.",
+        "ownership_updated": "Cleveland-Cliffs acquired from ArcelorMittal Dec 2020",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.919,
+          35.927
+        ]
+      },
+      "properties": {
+        "name": "Nucor Steel \u2014 Arkansas (Blytheville)",
+        "company": "Nucor Corporation",
+        "city": "Blytheville",
+        "state": "AR",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, electric_arc_furnace",
+        "capacity_kt_year": 2300,
+        "hsm_finishing_stands": 6,
+        "hsm_max_width_mm": 1635,
+        "hsm_startup_year": 1992,
+        "galv_num_lines": 2,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 999,
+        "eaf_num_furnaces": 2,
+        "eaf_capacity_kt": 2450,
+        "notes": "2 EAF 2,450kt. HSM 2,300kt. GI 544kt + CAGL 455kt. Also Nucor-Yamato beam mill adjacent.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7914,
+          33.0427
+        ]
+      },
+      "properties": {
+        "name": "Nucor Steel \u2014 Berkeley (Huger SC)",
+        "company": "Nucor Corporation",
+        "city": "Huger",
+        "state": "SC",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, electric_arc_furnace",
+        "capacity_kt_year": 2300,
+        "hsm_finishing_stands": 7,
+        "hsm_max_width_mm": 1905,
+        "hsm_startup_year": 1996,
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 635,
+        "eaf_num_furnaces": 2,
+        "eaf_capacity_kt": 2956,
+        "notes": "2 EAF 2,956kt. HSM 2,300kt (7-stand, widest Nucor at 75-in). HDGL 635kt.",
+        "port_adjacent": true,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.0886,
+          34.6068
+        ]
+      },
+      "properties": {
+        "name": "Nucor Steel \u2014 Decatur (Trinity AL)",
+        "company": "Nucor Corporation",
+        "city": "Trinity",
+        "state": "AL",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, electric_arc_furnace",
+        "capacity_kt_year": 2300,
+        "hsm_finishing_stands": 5,
+        "hsm_max_width_mm": 1651,
+        "hsm_startup_year": 1996,
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 544,
+        "eaf_num_furnaces": 2,
+        "eaf_capacity_kt": 2268,
+        "notes": "2 DC-EAF 2,268kt. HSM 2,300kt (5+rougher). HDGL 544kt (wide, heavy-gauge capable to 6.3mm).",
+        "port_adjacent": false,
+        "barge_access": true,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0616,
+          38.738
+        ]
+      },
+      "properties": {
+        "name": "Nucor Steel Gallatin (Ghent KY)",
+        "company": "Nucor Corporation",
+        "city": "Ghent",
+        "state": "KY",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, electric_arc_furnace",
+        "capacity_kt_year": 1500,
+        "hsm_finishing_stands": 6,
+        "hsm_max_width_mm": 1626,
+        "hsm_startup_year": 1995,
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 454,
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 1452,
+        "notes": "EAF 1,452kt. HSM 1,500kt (added roughing stands 2020). PAGL 454kt. On Ohio River.",
+        "ownership_updated": "2020 added 2 roughing stands. Nucor-JFE galv JV also at Ghent.",
+        "port_adjacent": false,
+        "barge_access": true,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.9004,
+          39.9743
+        ]
+      },
+      "properties": {
+        "name": "Nucor Steel \u2014 Indiana (Crawfordsville)",
+        "company": "Nucor Corporation",
+        "city": "Crawfordsville",
+        "state": "IN",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, electric_arc_furnace",
+        "capacity_kt_year": 1900,
+        "hsm_finishing_stands": 6,
+        "hsm_max_width_mm": 1397,
+        "hsm_startup_year": 1989,
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI",
+        "galv_total_capacity_kt": 318,
+        "eaf_num_furnaces": 2,
+        "eaf_capacity_kt": 2304,
+        "notes": "First Nucor thin-slab flat mill (1989). 2 EAF 2,304kt. HSM 1,900kt. GI 318kt. Narrower strip.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9019,
+          36.3452
+        ]
+      },
+      "properties": {
+        "name": "Nucor Steel \u2014 Hertford County (Cofield NC)",
+        "company": "Nucor Corporation",
+        "city": "Cofield",
+        "state": "NC",
+        "country": "US",
+        "facility_types": "plate_mill, electric_arc_furnace",
+        "capacity_kt_year": 1000,
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 1542,
+        "plate_max_width_mm": 3175,
+        "notes": "EAF 1,542kt. 4-hi plate 1,000kt (wide: 125-in). Discrete plate. Near Norfolk/Hampton Roads.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.5692,
+          33.2098
+        ]
+      },
+      "properties": {
+        "name": "Nucor Steel Tuscaloosa",
+        "company": "Nucor Corporation",
+        "city": "Tuscaloosa",
+        "state": "AL",
+        "country": "US",
+        "facility_types": "plate_mill, electric_arc_furnace",
+        "capacity_kt_year": 1090,
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 1200,
+        "plate_max_width_mm": 2540,
+        "notes": "Steckel plate 1,090kt. EAF 1,200kt. Discrete + coil plate.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.7405,
+          32.5007
+        ]
+      },
+      "properties": {
+        "name": "Nucor Steel Longview",
+        "company": "Nucor Corporation",
+        "city": "Longview",
+        "state": "TX",
+        "country": "US",
+        "facility_types": "plate_mill, electric_arc_furnace",
+        "capacity_kt_year": 160,
+        "eaf_num_furnaces": 2,
+        "eaf_capacity_kt": 110,
+        "plate_max_width_mm": 3048,
+        "notes": "Heavy plate from ingot casting. 160kt. Niche heavy/wide plate.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1167,
+          38.6667
+        ]
+      },
+      "properties": {
+        "name": "Nucor Steel West Virginia (Formerly CSI Flat Products)",
+        "company": "Nucor Corporation",
+        "city": "Apple Grove",
+        "state": "WV",
+        "country": "US",
+        "facility_types": "hot_strip_mill, electric_arc_furnace",
+        "capacity_kt_year": 3000,
+        "notes": "$3.1B greenfield. 2 EAF + endless casting/rolling. 3M TPY capacity. Under construction 2024-2026. Nucor's largest single investment.",
+        "ownership_updated": "Construction ~40% complete as of Feb 2025. Commissioning target 2026.",
+        "port_adjacent": false,
+        "barge_access": true,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8713,
+          41.4289
+        ]
+      },
+      "properties": {
+        "name": "SDI \u2014 Butler (Flat Roll Div.)",
+        "company": "Steel Dynamics Inc.",
+        "city": "Butler",
+        "state": "IN",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, electric_arc_furnace",
+        "capacity_kt_year": 2700,
+        "hsm_finishing_stands": 7,
+        "hsm_max_width_mm": 1588,
+        "hsm_startup_year": 1996,
+        "galv_num_lines": 2,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 871,
+        "eaf_num_furnaces": 2,
+        "eaf_capacity_kt": 2900,
+        "notes": "2 EAF 2,900kt. HSM 2,700kt (7-stand, thinnest at 1.09mm). 2 HDGL 544+327=871kt.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4272,
+          33.4957
+        ]
+      },
+      "properties": {
+        "name": "SDI \u2014 Columbus (Flat Roll Div.)",
+        "company": "Steel Dynamics Inc.",
+        "city": "Columbus",
+        "state": "MS",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, electric_arc_furnace",
+        "capacity_kt_year": 3100,
+        "hsm_finishing_stands": 6,
+        "hsm_max_width_mm": 1930,
+        "hsm_startup_year": 2007,
+        "galv_num_lines": 3,
+        "galv_coating_types": "GI,GA,AZ,AL",
+        "galv_total_capacity_kt": 1120,
+        "eaf_num_furnaces": 2,
+        "eaf_capacity_kt": 3100,
+        "notes": "2 EAF 3,100kt. HSM 3,100kt (widest SDI at 76-in). 3 galv lines: GI/GA 408 + AZ 349 + AL 363 = 1,120kt.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5092,
+          28.0364
+        ]
+      },
+      "properties": {
+        "name": "SDI \u2014 Sinton (Flat Roll Div.)",
+        "company": "Steel Dynamics Inc.",
+        "city": "Sinton",
+        "state": "TX",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line, electric_arc_furnace, coating_line",
+        "capacity_kt_year": 3000,
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA,AZ",
+        "galv_total_capacity_kt": 500,
+        "notes": "Greenfield 2021. 2 EAF + HSM ~3M TPY. CGL 500kt (GI/GA/AZ). Paint line. Near Corpus Christi port.",
+        "ownership_updated": "Started up 2021-2022. Full production 2023.",
+        "port_adjacent": true,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.4139,
+          39.4667
+        ]
+      },
+      "properties": {
+        "name": "SDI \u2014 Heartland (Terre Haute)",
+        "company": "Steel Dynamics Inc.",
+        "city": "Terre Haute",
+        "state": "IN",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI",
+        "galv_total_capacity_kt": 435,
+        "notes": "GI galvanizing 435kt. Flat roll finishing.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.7372,
+          38.2892
+        ]
+      },
+      "properties": {
+        "name": "SDI \u2014 Jeffersonville",
+        "company": "Steel Dynamics Inc.",
+        "city": "Jeffersonville",
+        "state": "IN",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,AZ",
+        "galv_total_capacity_kt": 272,
+        "notes": "Butler Div. satellite. GI/AZ 272kt. Near Louisville.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9959,
+          40.4406
+        ]
+      },
+      "properties": {
+        "name": "SDI \u2014 GalvTech (Pittsburgh)",
+        "company": "Steel Dynamics Inc.",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GF",
+        "galv_total_capacity_kt": 417,
+        "notes": "GI/GF 417kt. Pittsburgh finishing.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0,
+          40.4406
+        ]
+      },
+      "properties": {
+        "name": "SDI \u2014 MetalTech (Pittsburgh)",
+        "company": "Steel Dynamics Inc.",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GF",
+        "galv_total_capacity_kt": 318,
+        "notes": "Heavy-gauge GI/GF 318kt.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8256,
+          40.4061
+        ]
+      },
+      "properties": {
+        "name": "SDI \u2014 NexTech (Turtle Creek PA)",
+        "company": "Steel Dynamics Inc.",
+        "city": "Turtle Creek",
+        "state": "PA",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI",
+        "galv_total_capacity_kt": 154,
+        "notes": "Narrow GI 154kt.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.1761,
+          41.5889
+        ]
+      },
+      "properties": {
+        "name": "NLMK Indiana",
+        "company": "NLMK USA",
+        "city": "Portage",
+        "state": "IN",
+        "country": "US",
+        "facility_types": "hot_strip_mill, electric_arc_furnace",
+        "capacity_kt_year": 1000,
+        "hsm_finishing_stands": 5,
+        "hsm_max_width_mm": 1549,
+        "hsm_startup_year": 1992,
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 680,
+        "notes": "EAF 680kt. HSM 1,000kt (5-stand). Russian-owned (NLMK Group).",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4965,
+          41.212
+        ]
+      },
+      "properties": {
+        "name": "NLMK Pennsylvania (Sharon Coating)",
+        "company": "NLMK USA",
+        "city": "Farrell",
+        "state": "PA",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line",
+        "capacity_kt_year": 1800,
+        "hsm_finishing_stands": 6,
+        "hsm_max_width_mm": 1359,
+        "hsm_startup_year": 1966,
+        "galv_num_lines": 2,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 704,
+        "notes": "HSM 1,800kt. Sharon Coating: GI 250kt + GI/GA 454kt = 704kt.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.435,
+          34.0922
+        ]
+      },
+      "properties": {
+        "name": "California Steel Industries",
+        "company": "California Steel Industries (JFE/Vale JV)",
+        "city": "Fontana",
+        "state": "CA",
+        "country": "US",
+        "facility_types": "hot_strip_mill, galvanizing_line",
+        "capacity_kt_year": 2700,
+        "hsm_finishing_stands": 6,
+        "hsm_max_width_mm": 1880,
+        "hsm_startup_year": 1958,
+        "galv_num_lines": 2,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 730,
+        "notes": "HSM 2,700kt (from imported slabs). 2 galv: 430 + 300 = 730kt. Only major flat-rolled in SoCal.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0053,
+          41.5722
+        ]
+      },
+      "properties": {
+        "name": "North Star BlueScope Steel",
+        "company": "BlueScope Steel (Australia)",
+        "city": "Delta",
+        "state": "OH",
+        "country": "US",
+        "facility_types": "hot_strip_mill, electric_arc_furnace",
+        "capacity_kt_year": 2700,
+        "hsm_finishing_stands": 6,
+        "hsm_startup_year": 1997,
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 1905,
+        "notes": "EAF 1,905kt (largest single-furnace EAF in AIST 2021 data). HSM 2,700kt.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.607,
+          40.3225
+        ]
+      },
+      "properties": {
+        "name": "JSW Steel USA \u2014 Mingo Junction",
+        "company": "JSW Steel USA (India)",
+        "city": "Mingo Junction",
+        "state": "OH",
+        "country": "US",
+        "facility_types": "hot_strip_mill, electric_arc_furnace",
+        "capacity_kt_year": 2800,
+        "hsm_finishing_stands": 6,
+        "hsm_max_width_mm": 1930,
+        "hsm_startup_year": 1965,
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 1500,
+        "notes": "EAF 1,500kt (250mt heat, large). HSM 2,800kt. Indian-owned. On Ohio River.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.9774,
+          29.7355
+        ]
+      },
+      "properties": {
+        "name": "JSW Steel USA \u2014 Baytown Plate",
+        "company": "JSW Steel USA (India)",
+        "city": "Baytown",
+        "state": "TX",
+        "country": "US",
+        "facility_types": "plate_mill",
+        "capacity_kt_year": 710,
+        "plate_max_width_mm": 3861,
+        "notes": "4-hi reversing plate 710kt. Wide heavy plate (152-in). Near Houston Ship Channel.",
+        "port_adjacent": true,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7402,
+          40.6068
+        ]
+      },
+      "properties": {
+        "name": "ATI Specialty Rolled Products",
+        "company": "ATI Inc.",
+        "city": "Brackenridge",
+        "state": "PA",
+        "country": "US",
+        "facility_types": "hot_strip_mill, electric_arc_furnace",
+        "hsm_finishing_stands": 7,
+        "hsm_max_width_mm": 2083,
+        "hsm_startup_year": 2014,
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 360,
+        "notes": "Specialty/stainless hot rolling. 7-stand HSM (2014 new build). EAF 360kt.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7019,
+          45.5666
+        ]
+      },
+      "properties": {
+        "name": "EVRAZ Portland",
+        "company": "EVRAZ North America",
+        "city": "Portland",
+        "state": "OR",
+        "country": "US",
+        "facility_types": "plate_mill",
+        "capacity_kt_year": 1090,
+        "plate_max_width_mm": 3505,
+        "notes": "2 Steckel plate mills 1,090kt. Widest plate in US West (138-in). Discrete + coil.",
+        "ownership_updated": "EVRAZ divested NA assets; now under new ownership structure.",
+        "port_adjacent": true,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6091,
+          38.2544
+        ]
+      },
+      "properties": {
+        "name": "EVRAZ Rocky Mountain Steel",
+        "company": "EVRAZ North America",
+        "city": "Pueblo",
+        "state": "CO",
+        "country": "US",
+        "facility_types": "electric_arc_furnace",
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 1100,
+        "notes": "EAF 1,100kt. Rail and plate/structural. Colorado's only steel mill.",
+        "ownership_updated": "EVRAZ divested NA assets.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0323,
+          30.7885
+        ]
+      },
+      "properties": {
+        "name": "SSAB Alabama (Axis)",
+        "company": "SSAB Americas",
+        "city": "Axis",
+        "state": "AL",
+        "country": "US",
+        "facility_types": "plate_mill, electric_arc_furnace",
+        "capacity_kt_year": 1130,
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 1270,
+        "plate_max_width_mm": 3099,
+        "notes": "EAF 1,270kt. Steckel plate 1,130kt. Discrete + coil. SSAB HardOx/Strenx specialty.",
+        "port_adjacent": true,
+        "barge_access": true,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.0432,
+          41.4245
+        ]
+      },
+      "properties": {
+        "name": "SSAB Iowa (Muscatine)",
+        "company": "SSAB Americas",
+        "city": "Muscatine",
+        "state": "IA",
+        "country": "US",
+        "facility_types": "plate_mill, electric_arc_furnace",
+        "capacity_kt_year": 1130,
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 1194,
+        "plate_max_width_mm": 3099,
+        "notes": "EAF 1,194kt. Steckel plate 1,130kt. First SSAB Zero fossil-free steel shipped 2023.",
+        "ownership_updated": "AIST lists as Muscatine IA. Previously referenced as Montpelier (nearby).",
+        "port_adjacent": false,
+        "barge_access": true,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.01,
+          31.005
+        ]
+      },
+      "properties": {
+        "name": "Outokumpu Stainless USA",
+        "company": "Outokumpu Oyj (Finland)",
+        "city": "Calvert",
+        "state": "AL",
+        "country": "US",
+        "facility_types": "electric_arc_furnace, hot_strip_mill, cold_reduction_mill",
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 1000,
+        "notes": "Fully integrated stainless: EAF 1,000kt + hot rolling + cold finishing. Adjacent to AM/NS Calvert.",
+        "port_adjacent": true,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0616,
+          38.738
+        ]
+      },
+      "properties": {
+        "name": "North American Stainless (NAS)",
+        "company": "Acerinox S.A. (Spain)",
+        "city": "Ghent",
+        "state": "KY",
+        "country": "US",
+        "facility_types": "electric_arc_furnace, hot_strip_mill, cold_reduction_mill",
+        "eaf_num_furnaces": 2,
+        "eaf_capacity_kt": 1600,
+        "notes": "Largest US stainless flat mill. 2 EAF 1,600kt combined. Hot+cold rolling. Acquired Haynes International 2024.",
+        "ownership_updated": "Completed Haynes International acquisition Nov 2024.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1848,
+          32.2988
+        ]
+      },
+      "properties": {
+        "name": "Double G Coatings",
+        "company": "Cleveland-Cliffs (fmr ArcelorMittal)",
+        "city": "Jackson",
+        "state": "MS",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,AZ",
+        "galv_total_capacity_kt": 272,
+        "notes": "GI/AZ 272kt. Finishing only.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3784,
+          40.7989
+        ]
+      },
+      "properties": {
+        "name": "Gregory Industries",
+        "company": "Gregory Industries Inc.",
+        "city": "Canton",
+        "state": "OH",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 132,
+        "notes": "Narrow strip galvanizer 132kt.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3977,
+          41.9164
+        ]
+      },
+      "properties": {
+        "name": "National Galvanizing",
+        "company": "National Galvanizing L.P.",
+        "city": "Monroe",
+        "state": "MI",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 204,
+        "notes": "Heavy-gauge galvanizing 204kt (1.52-6.4mm).",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4,
+          41.92
+        ]
+      },
+      "properties": {
+        "name": "Spartan Steel Coating",
+        "company": "Worthington Industries / Cleveland-Cliffs JV",
+        "city": "Monroe",
+        "state": "MI",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 544,
+        "notes": "Worthington/Cliffs JV. GI/GA 544kt. Auto-grade.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.005,
+          41.5739
+        ]
+      },
+      "properties": {
+        "name": "Worthington Industries (Delta OH)",
+        "company": "Worthington Enterprises (fmr Worthington Industries)",
+        "city": "Delta",
+        "state": "OH",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 363,
+        "notes": "GI/GA 363kt. Adjacent to North Star BlueScope.",
+        "ownership_updated": "Worthington split into Worthington Enterprises + Worthington Steel 2023.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.7502,
+          32.5252
+        ]
+      },
+      "properties": {
+        "name": "Ternium USA (Shreveport)",
+        "company": "Ternium S.A. (Argentina/Luxembourg)",
+        "city": "Shreveport",
+        "state": "LA",
+        "country": "US",
+        "facility_types": "galvanizing_line, coating_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,AZ",
+        "galv_total_capacity_kt": 236,
+        "notes": "GI/AZ 236kt + 2nd paint line (120kt, started ~2025). Latin American steel in US South.",
+        "ownership_updated": "2nd paint line $98M, commissioned ~2025.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8412,
+          46.0131
+        ]
+      },
+      "properties": {
+        "name": "Steelscape \u2014 Kalama WA",
+        "company": "BlueScope Steel (Australia)",
+        "city": "Kalama",
+        "state": "WA",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI",
+        "galv_total_capacity_kt": 191,
+        "notes": "West Coast galvanizer. GI 191kt. BlueScope subsidiary.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5931,
+          34.1064
+        ]
+      },
+      "properties": {
+        "name": "Steelscape \u2014 Rancho Cucamonga CA",
+        "company": "BlueScope Steel (Australia)",
+        "city": "Rancho Cucamonga",
+        "state": "CA",
+        "country": "US",
+        "facility_types": "galvanizing_line",
+        "galv_num_lines": 1,
+        "galv_coating_types": "AZ",
+        "galv_total_capacity_kt": 200,
+        "notes": "Galvalume (AZ) 200kt. SoCal.",
+        "ownership_updated": "CMC previously had a plant at this location (closed). BlueScope Steelscape separate.",
+        "port_adjacent": false,
+        "barge_access": false,
+        "water_access": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3358,
+          46.5136
+        ]
+      },
+      "properties": {
+        "name": "Algoma Steel",
+        "company": "Algoma Steel Group Inc.",
+        "city": "Sault Ste. Marie",
+        "state": "ON",
+        "country": "CA",
+        "facility_types": "hot_strip_mill, plate_mill, blast_furnace, basic_oxygen_furnace",
+        "capacity_kt_year": 680,
+        "hsm_finishing_stands": 6,
+        "hsm_max_width_mm": 2540,
+        "hsm_startup_year": 1982,
+        "plate_max_width_mm": 3810,
+        "notes": "HSM 680kt strip + 410kt plate (combined mill). DSPC CSP line: 2,000kt. BF\u2192EAF conversion underway.",
+        "ownership_updated": "CA$825-875M decarbonization: replacing BF/BOF with EAF. Target ~2025-2026.",
+        "port_adjacent": true,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8711,
+          43.2557
+        ]
+      },
+      "properties": {
+        "name": "ArcelorMittal Dofasco",
+        "company": "ArcelorMittal (Luxembourg)",
+        "city": "Hamilton",
+        "state": "ON",
+        "country": "CA",
+        "facility_types": "hot_strip_mill, galvanizing_line, electric_arc_furnace, blast_furnace, basic_oxygen_furnace",
+        "capacity_kt_year": 4700,
+        "hsm_finishing_stands": 7,
+        "hsm_max_width_mm": 1600,
+        "hsm_startup_year": 1983,
+        "galv_num_lines": 6,
+        "galv_coating_types": "GI,GA,AZ",
+        "galv_total_capacity_kt": 2266,
+        "eaf_num_furnaces": 1,
+        "eaf_capacity_kt": 1350,
+        "notes": "HSM 4,700kt. EAF 1,350kt. 6 galv lines totaling ~2,266kt (Hamilton + C\u00f4teau-du-Lac + Windsor).",
+        "port_adjacent": true,
+        "barge_access": false,
+        "water_access": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0485,
+          42.7904
+        ]
+      },
+      "properties": {
+        "name": "Stelco \u2014 Lake Erie Works",
+        "company": "Stelco Holdings Inc.",
+        "city": "Nanticoke",
+        "state": "ON",
+        "country": "CA",
+        "facility_types": "hot_strip_mill, galvanizing_line, blast_furnace, basic_oxygen_furnace",
+        "capacity_kt_year": 2300,
+        "hsm_finishing_stands": 6,
+        "hsm_max_width_mm": 1880,
+        "hsm_startup_year": 1983,
+        "galv_num_lines": 1,
+        "galv_coating_types": "GI,GA",
+        "galv_total_capacity_kt": 454,
+        "notes": "Integrated BF/BOF. HSM 2,300kt. Z-Line galv 454kt + Hamilton galv 181kt.",
+        "port_adjacent": true,
+        "barge_access": false,
+        "water_access": true
+      }
+    }
+  ]
+}
